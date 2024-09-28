@@ -4,38 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lost and Found</title>
-    <script src="js/script.js"></script>
+    <script src="js/script.js" defer></script>
     <link rel="stylesheet" href="cs/style.css">
 </head>
 <body>
     <h1>Lost and Found</h1>
     <h3>By Ethan Chan</h3>
+    <img src="img/Lostandfound.jpg" class="titleImg" alt="Big Willy">
     <div class="contentWrapper">
-        <form action="">
+        <form id="lostAndFoundForm">
             <div class="inputField" id="name">
                 <p class="inputDescriptor">Name:</p>
                 <label for="fName">First: </label>
                 <input required type="text" name="fName" id="fName">
                 <label for="lName">Last: </label>
-                <input type="text" name="lName" id="lName">            
+                <input type="text" name="lName" id="lName">
             </div>
-
-            <br>
-
             <div class="inputField" id="missingItem">
                 <p class="inputDescriptor">Item info:</p>
                 <label for="missingItem">Missing Item: </label>
-                <input required type="text" name="missingItem" id="missingItem"></textarea>
+                <input required type="text" name="missingItem" id="itemMissing">
                 <br>
                 <label for="lastSeenDate">Last Seen On:</label>
                 <input required type="datetime" name="lastSeenDate" id="lastSeenDate">
                 <br>
                 <label for="lastSeenWhere">Last Seen In:</label>
-                <input required type="text" name="lastSeenWhere" id="lastSeen"></textarea>
+                <input required type="text" name="lastSeenWhere" id="lastSeen">
             </div>
-
-            <br>
-
             <div class="inputField" id="contactInfo">
                 <p class="inputDescriptor">Contact Info</p>
                 <label for="emailAddr">Email</label>
@@ -44,33 +39,33 @@
                 <label for="phoneNum">Phone Number</label>
                 <input required type="tel" name="phoneNum">
             </div>
-            <div class="inputField" id="deliveryMethod"></div>
+            <div class="inputField" id="deliveryMethod">
                 <p class="inputDescriptor">Choose a delivery Method</p>
-                <input type="radio" name="deliveryMethod" value="pickup">
+                <input type="radio" id="pickup" name="deliveryMethod" value="pickup">
                 <label for="deliveryMethod">Pick Up</label><br>
-                <input type="radio" id="delvery" name="deliveryMethod" value="delivery">
+                <input type="radio" id="delivery" name="deliveryMethod" value="delivery">
                 <label for="delivery">Delivery</label>
             </div>
             <div class="inputField" id="address">
                 <label for="street1">Street Line 1</label>
                 <br>
-                <input type="text" name="street1" id="street1">
+                <input type="text" name="street1" id="street1" class="conditionalReq">
                 <br>
                 <label for="street2">Street Line 2</label>
-                <br>
                 <input type="text" name="street2" id="street2">
                 <br>
                 <label for="city">City</label>
                 <br>
-                <input type="text" name="city" id="city">
+                <input type="text" name="city" id="city"  class="conditionalReq">
                 <br>
                 <label for="state">State</label>
                 <br>
-                <input type="text" name="state" id="state">
+                <input type="text" name="state" id="state"  class="conditionalReq">
                 <br>
                 <label for="zip">Zip Code</label>
-                <input type="text" for="zip" id="zip">
+                <input type="text" for="zip" id="zip"  class="conditionalReq">
             </div>
+            <br>
             <button type="submit">Submit</button>
         </form>
     </div>
