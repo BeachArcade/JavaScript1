@@ -56,19 +56,66 @@ class Coords {
 }
 // Rectangle
 class Rectangle {
-    #origin
-
+    #x;
+    #y;
     #xSize;
     #ySize;
 
     constructor(x, y, xSize, ySize) {
-        this.#origin = new Coords(x, y);
+        this.#x = x;
+        this.#y = y;
         this.#xSize = xSize;
         this.#ySize = ySize;
     }
     draw(context) {
-        context.fillRect(this.#origin.getX(), this.#origin.getY(), this.#xSize, this.#ySize);
+        context.fillRect(this.getX(), this.getY(), this.getXSize(), this.getYSize());
     }
+    isTouching(that) {
+        let thatArr = that.getSides();
+    }
+    getXSize() { return this.#xSize; }
+    getYSize() { return this.#ySize; }
+    getX() { return this.#x; }
+    getY() { return this.#y; }
+
+    // Returns the specified side or all sides if no params
+    getSides(side) {
+        let returnVal;
+        let left = this.getX();
+        let right = this.getX() + this.getXSize();
+        let top = this.getY();
+        let bottom = this.getY() + this.getYSize();
+
+        switch(side) {
+            case "left":
+                returnVal = left;
+                break;
+            case "right":
+                returnVal = right;
+                break;
+            case "top":
+                returnVal = top;
+                break;
+            case "bottom":
+                returnVal = bottom;
+                break;
+            default:
+                returnVal = [left, right, top, bottom];
+                break
+        }
+        return returnVal;
+    }
+
+    // Setters
+    setX(x) { this.#x = x; }
+    setY(y) { this.#y = y; }
+    set(x, y) {
+         this.setX(x); 
+         this.setY(y); 
+    }
+    // Other mutators
+    changeX(n) { this.setX(this.getX() + n); }
+    changeY(n) { this.setY(this.getY() + n); }
 }
 
 
@@ -80,4 +127,3 @@ const context = canvas.getContext("2d");
 let r = new Rectangle(10, 10, 100, 100);
 let game = new Game;
 game.draw(r);
-
