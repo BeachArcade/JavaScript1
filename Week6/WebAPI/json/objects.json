@@ -103,5 +103,19 @@
         "Price": "519.99",
         "Capacity": "256 GB"
       }
+    },
+    {
+        "id": "14",
+        "name": "Science 1994",
+        "data": {
+            "color": "Indian Summer"
+        }
+    },
+    {
+        "id": "15",
+        "name": "Comodore 64",
+        "data": {
+            "color": "Obsolete"
+        }
     }
   ]

@@ -6,8 +6,11 @@ let a = setInterval(() => {
     text.style.transform = `rotate(${theta += 10}deg)`;
     document.querySelector("body").style.transform = `rotate(${(-1 * theta) - 20}deg)`
 }, 100);
-    
+function delay() {
+        return new Promise(resolve => setTimeout(resolve, 2000))
+}
 async function fetchData() {
+    await delay();
     let text = document.querySelector("#loading");
     // const API = "https://api.restful-api.dev/objects";
     const API = "json/objects.json";
@@ -36,9 +39,7 @@ async function fetchData() {
         // } else {
         //     str += "<td>Not Colored!</td>"
         // }
-
-        let color = (data[i].data?.color) 
-        str += `<td>${(data[i].data?.color || "Not Colored")}</td>`;
+        str += `<td>${(data[i].data?.color || data[i].data?.Color || "Not Colored")}</td>`;
 
         row.innerHTML = str;
         table.append(row)
