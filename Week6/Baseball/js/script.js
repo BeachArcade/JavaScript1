@@ -1,4 +1,4 @@
-const SPRITE_X_SIZE = 16;
+const SPRITE_X_SIZE = 32;
 const SPRITE_Y_SIZE = 32;
 const SPRITESHEET = "img/sprites.png";
 class Sprite {
@@ -6,7 +6,7 @@ class Sprite {
 
     #origX = 0;
     #origY = 0;
-    #xOffset = 0;
+    #xOffset = 16;
     #yOffset = 0;
     #object;
     constructor(name) {
@@ -25,7 +25,7 @@ class Sprite {
 
     }
     draw(){
-        this.#object.style.backgroundPosition = `${this.#xOffset}px left, ${this.#yOffset}px top`;
+        this.#object.style.backgroundPosition = `${this.#xOffset}px ${this.#yOffset}px`;
         console.log(`X: ${this.#xOffset}\t Y: ${this.#yOffset}`);
         console.log(this.#object.style.backgroundPosition)
     }
