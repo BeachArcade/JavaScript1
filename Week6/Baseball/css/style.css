@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.sprite {
+    --x: 0;
+    --y: 0;
+    height: 32px;
+    width: 16px;
+
+    background-image: url("../img/sprites.png");
+}
+
+button {
+    height: 50px;
+    width: 50px;
+
+    text-align: center;
+}
+
+#field {
+    height: 300px;
+    width: 400px;
+
+    background-color: green;
+}

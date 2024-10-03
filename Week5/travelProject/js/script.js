@@ -158,6 +158,3 @@ places.render();
 document.querySelector("#next").addEventListener("click", next);
 document.querySelector("#prev").addEventListener("click", prev);
 
-let em = "test@gmail.com"
-console.log(em.trim().toUpperCase().split('@'));
-
