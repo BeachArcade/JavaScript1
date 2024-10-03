@@ -1,0 +1,55 @@
+* {
+    background-color: darkseagreen;
+}
+#placeTitle, #title {
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+}
+#placeImg {
+    display: block;
+    width: 300px;
+    height: 300px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 2px black solid;
+}
+#controls {
+    padding-top: 10px;
+    text-align: center;
+}
+#controls button {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    background-color: aliceblue;
+}
+#thingsToDo {
+    text-align: center;
+    margin-bottom: -10px;
+}
+#placeListWrapper {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+#placeList {
+    height: 130px;
+}
+.unchecked {
+    text-decoration: none;
+}
+.checked {
+    text-decoration: line-through;
+    color: #5f5f5f;
+}
+#tally {
+    text-align: center;
+    font-weight: 900;
+}

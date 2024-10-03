@@ -5,15 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel</title>
     <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1 id="placeTitle">Title</h1>
+    <h1 id="title">Take a trip to:</h1>
+    <hr>
+    <br>
+    <h2 id="placeTitle">Title</h2>
     <img id="placeImg" src="img/" alt="destination image">
+    <div id="controls">
+        <button type="button" id="prev"><</button>
+        <button type="button" id="next">></button>
+    </div>
     <div id="placeListWrapper"> <!-- ??? -->
+        <h4 id="thingsToDo">Things to do:</h4>
         <ul id="placeList">
         </ul>
     </div>
     <div id="tally"></div>
-    
 </body>
 </html>
