@@ -1,0 +1,53 @@
+@keyframes pitch1 {
+    30% {
+        margin-left: calc(50% + 20px);
+    }
+    80% {
+        margin-left: calc(50% + 80px);
+    }
+    100% {
+        margin-left: calc(50% + 50px);
+    }
+}
+
+@keyframes pitch2 {
+    10% {
+        margin-left: calc(50% + 41px);
+    }
+    20% {
+        margin-left: calc(50% + 52px);
+    }
+    30% {
+        margin-left: calc(50% + 41px);
+    }
+    40% {
+        margin-left: calc(50% + 51px);
+    }
+    50% {
+        margin-left: calc(50% + 41px);
+    }
+    60% {
+        margin-left: calc(50% + 50px);
+    }
+    70% {
+        margin-left: calc(50% + 41px);
+    }
+    80% {
+        margin-left: calc(50% + 53px);
+    }
+    90% {
+        margin-left: calc(50% + 43px);
+    }
+    100% {
+        margin-left: calc(50% + 50px);
+    }
+}
+
+@keyframes pitch3 {
+    50% {
+        margin-left: calc(50% + 100px);
+    }
+    100% {
+        margin-left: calc(50% + 50px);
+    }
+}

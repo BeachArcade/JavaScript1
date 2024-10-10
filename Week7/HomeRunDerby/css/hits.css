@@ -1,0 +1,318 @@
+@keyframes hit1 {
+    20% {
+        box-shadow: 10px 150px 3px rgba(0, 0, 0, 0.5);
+    }
+    50% {
+        box-shadow: 10px 230px 3px rgba(0, 0, 0, 0.1);
+    }
+    100% {
+        margin-top: -100%;
+        margin-left: 100%;
+        transform: scale(1.10);
+    }
+}
+
+@keyframes hit2 {
+    20% {
+        box-shadow: 10px 300px 3px rgba(0, 0, 0, 0.5);
+    }
+    50% {
+        box-shadow: 10px 730px 3px rgba(0, 0, 0, 0.1);
+    }
+    100% {
+        margin-top: -200%;
+        margin-left: -70%;
+        transform: scale(1.30);
+    }
+}
+
+@keyframes hit3 {
+    20% {
+        box-shadow: 10px 200px 3px rgba(0, 0, 0, 0.5);
+    }
+    50% {
+        box-shadow: 10px 330px 3px rgba(0, 0, 0, 0.1);
+    }
+    100% {
+        margin-top: -120%;
+        margin-left: -10%;
+        transform: scale(1.30);
+    }
+}
+
+@keyframes hit4 {
+    20% {
+        box-shadow: 10px 100px 3px rgba(0, 0, 0, 0.5);
+    }
+    50% {
+        box-shadow: 10px 150px 3px rgba(0, 0, 0, 0.1);
+    }
+    100% {
+        margin-top: -100%;
+        margin-left: 120%;
+        transform: scale(1.10);
+    }
+}
+
+@keyframes hit5 {
+    20% {
+        box-shadow: 10px 100px 3px rgba(0, 0, 0, 0.5);
+    }
+    50% {
+        box-shadow: 10px 130px 3px rgba(0, 0, 0, 0.1);
+    }
+    100% {
+        margin-top: -100%;
+        margin-left: 40%;
+        transform: scale(1.10);
+    }
+}
+
+@keyframes hit6 {
+    30% {
+        transform: scale(1.06);
+        box-shadow: 10px 30px rgba(0, 0, 0, 0.8);
+    }
+    60% {
+        transform: scale(1);
+        box-shadow: none;
+    }
+    80% {
+        transform: scale(1.03);
+        box-shadow: 5px 10px rgba(0, 0, 0, 0.8);
+    }
+    100% {
+        margin-top: 162px;
+        margin-left: 37%;
+        transform: scale(1.00);
+        box-shadow: none;
+        z-index: 99;
+    }
+}
+
+@keyframes hit7 {
+    60% {
+        margin-top: 120px;
+        margin-left: 10%;
+        transform: scale(1.21);
+        z-index: 99;
+    }
+    100% {
+        margin-top: 26%;
+        margin-left: -5%;
+        transform: scale(1.00);
+        z-index: 99;
+    }
+}
+
+@keyframes hit8 {
+    50% {
+        transform: scale(1.05);
+    }
+    60% {
+        margin-top: 160px;
+        transform: scale(1.21);
+        transform: rotate(180deg);
+        z-index: 99;
+    }
+    60.1% {
+        margin-top: 100px;
+        transform: scale(1.19);
+        z-index: 99;
+    }
+    60.2% {
+        margin-top: 230px;
+    }
+    100% {
+        margin-top: 26%;
+        margin-left: 92%;
+        transform: rotate(200deg);
+    }
+}
+
+@keyframes hit9 {
+    50% {
+        margin-top: 250px;
+        transform: scale(1.05);
+        z-index: 99;
+    }
+    60.1% {
+        margin-top: 100px;
+        transform: scale(1.19);
+        z-index: 99;
+    }
+    60.2% {
+        margin-top: 230px;
+    }
+    100% {
+        margin-top: 26%;
+        margin-left: 62%;
+        transform: scale(1.00);
+    }
+}
+
+@keyframes hit10 {
+    90% {
+        transform: scale(1.05);
+    }
+    100% {
+        margin-top: 21%;
+        margin-left: 89%;
+        transform: scale(1.00);
+    }
+}
+
+@keyframes hit11 {
+    30% {
+        transform: scale(1.06);
+        box-shadow: 10px 30px rgba(0, 0, 0, 0.8);
+    }
+    60% {
+        transform: scale(1);
+        box-shadow: none;
+    }
+    80% {
+        transform: scale(1.03);
+        box-shadow: 5px 10px rgba(0, 0, 0, 0.8);
+    }
+    100% {
+        margin-top: 18%;
+        margin-left: 87%;
+        transform: scale(1.00);
+        box-shadow: none;
+        z-index: 99;
+    }
+}
+
+@keyframes hit12 {
+    60% {
+        margin-top: 60%;
+        transform: scale(1.30);
+        box-shadow: 10px 500px rgba(0, 0, 0, 0.8);
+    }
+    100% {
+        margin-top: 80%;
+        margin-left: 90%;
+        transform: scale(1.15);
+        box-shadow: none;
+    }
+}
+
+@keyframes hit13 {
+    30% {
+        transform: scale(1.06);
+        box-shadow: 10px 30px rgba(0, 0, 0, 0.8);
+    }
+    60% {
+        transform: scale(1);
+        box-shadow: none;
+    }
+    80% {
+        transform: scale(1.03);
+        box-shadow: 5px 10px rgba(0, 0, 0, 0.8);
+    }
+    100% {
+        margin-top: -40%;
+        margin-left: -87%;
+        transform: scale(1.00);
+        box-shadow: none;
+        z-index: 99;
+    }
+}
+
+@keyframes hit14 {
+    60% {
+        margin-top: 60%;
+        transform: scale(1.30);
+        box-shadow: 10px 500px rgba(0, 0, 0, 0.8);
+    }
+    100% {
+        margin-top: 80%;
+        margin-left: -40%;
+        transform: scale(1.25);
+        box-shadow: none;
+    }
+}
+
+@keyframes hit15 {
+    20% {
+        transform: scale(1.10);
+        box-shadow: 10px 50px 10px rgba(0, 0, 0, 0.8);
+    }
+    100% {
+        margin-top: 152px;
+        margin-left: 20%;
+        z-index: 99;
+    }
+}
+
+@keyframes hit16 {
+    20% {
+        transform: scale(1.20);
+        box-shadow: 10px 70px 10px rgba(0, 0, 0, 0.8);
+    }
+    100% {
+        margin-top: 152px;
+        margin-left: -120%;
+        z-index: 99;
+    }
+}
+
+@keyframes hit17 {
+    30% {
+        transform: scale(1.16);
+        box-shadow: 10px 30px rgba(0, 0, 0, 0.8);
+    }
+    60% {
+        transform: scale(1.1);
+        box-shadow: none;
+    }
+    80% {
+        transform: scale(1.03);
+        box-shadow: 5px 10px rgba(0, 0, 0, 0.8);
+    }
+    100% {
+        margin-top: 35%;
+        margin-left: 87%;
+        transform: scale(1.00);
+        box-shadow: none;
+        z-index: 99;
+    }
+}
+
+@keyframes hit18 {
+    60% {
+        margin-top: 30%;
+        transform: scale(1.10);
+        box-shadow: 10px 50px rgba(0, 0, 0, 0.8);
+    }
+    100% {
+        margin-top: 190px;
+        margin-left: -80%;
+        transform: scale(1.15);
+        box-shadow: none;
+    }
+}
+
+@keyframes hit19 {
+    90% {
+        transform: scale(1.15);
+    }
+    100% {
+        margin-top: 31%;
+        margin-left: 19%;
+        transform: scale(1.00);
+    }
+}
+
+@keyframes hit20 {
+    90% {
+        transform: scale(1.15);
+        box-shadow: 10px 10px rgba(0, 0, 0, 0.8);
+    }
+    100% {
+        margin-top: 165px;
+        margin-left: -8%;
+        transform: scale(1.00);
+    }
+}

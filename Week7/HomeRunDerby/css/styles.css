@@ -1,0 +1,80 @@
+    body {
+        background: linear-gradient(to bottom, lightblue 50px, darkgreen 50px);
+        /* W3C */
+        background-attachment: fixed;
+        overflow: hidden;
+    }
+    
+    fence {
+        top: 50px;
+        left: 0px;
+        position: fixed;
+        width: 100%;
+        height: 110px;
+        background: url("../images/brick.gif");
+        border-bottom: 2px solid white;
+        box-shadow: 2px 2px 2px #000000;
+        border-top: 2px solid lightblue;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        z-index: 10;
+    }
+    
+    footer {
+        position: fixed;
+        width: 100%;
+        text-align: center;
+        left: 0px;
+        bottom: 0px;
+        padding: 15px;
+        background-color: rgb(126, 117, 71);
+        height: 200px;
+        z-index: -1;
+    }
+    
+    .imgBall {
+        position: absolute;
+        margin-left: calc(50% + 50px);
+        margin-top: 135px;
+        border-radius: 80%;
+        width:20px;
+        content:url("../images/baseball.png");
+    }
+    
+    .imgPitcher {
+        position: absolute;
+        display: inline;
+        margin-left: calc(50% - 10px);
+        top: calc(10% - 20px);
+        z-index: 9999;
+    }
+    
+    .imgBatter {
+        position: absolute;
+        display: inline;
+        margin-left: calc(50% - 100px);
+        top: calc(100% - 250px);
+    }
+    
+    footer span {
+        margin-left: 25px;
+    }
+    
+    board {
+        width: 330px;
+        height: 100px;
+        background-color: #111;
+        position: absolute;
+        right: 10px;
+        font-size: 22px;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        border-left: 1px solid #eee;
+        border-right: 1px solid #eee;
+        margin-top: -10px;
+    }
+    
+    .hide {
+        display: none;
+    }

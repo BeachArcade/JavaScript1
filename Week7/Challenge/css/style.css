@@ -1,0 +1,13 @@
+body {
+    --colorVar: #3355ff;
+    background-color: var(--colorVar);
+    overflow: hidden;
+}
+.ball {
+    --colorVar: #eecad6;
+    border-radius: 50%;
+    position: absolute;
+    width: 5%;
+    padding-bottom: 5%;
+    background-color: var(--colorVar);
+}
